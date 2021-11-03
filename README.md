@@ -16,14 +16,19 @@
 - O(logn)：二分查找法
 - O(nlogn)：归并排序法
 - O(n^2)：选择排序法
+- O(2^n)指数级 暴力解码 不可接受
 #### 2-4 亲自试验自己算法的时间复杂度 (14:53) 
 - 复杂度实验，观察趋势：每次将数据规模提高两倍，看时间的变化
 - [四个测试算法](ComplexityExp/MyAlgorithmTester.h)
 - [生成数组工具](ComplexityExp/MyUtil.h)
+- [时间复杂度测试](ComplexityExp/MyTimeCostTest.cpp)
 #### 2-5 递归算法的复杂度分析 (14:46) 
+- 如果递归函数中，只进行一次递归调用，递归深度为depth，在每个递归函数中，时间复杂度为T；则总体的时间复杂度为O(T*depth)
+- 主定理
 #### 2-6 均摊时间复杂度分析（Amortized Time Analysis） (15:16) 
+- [MyVector](ComplexityExp/MyVector.h)实现中的push_back()，在均摊复杂度分析下，时间复杂度仍为O(1)
 #### 2-7 避免复杂度的震荡 (11:25) 
-
+- 应为删除元素(pop_back)后再添加元素(push_back)留出余地,否则在删除和添加元素的临界点无法进行均摊，复杂度O(1)会退化为O(n)
 ---
 ## 第三章：数组 Array
 考察排序、查找、数据结构  
