@@ -18,8 +18,8 @@
 - O(n^2)：选择排序法
 #### 2-4 亲自试验自己算法的时间复杂度 (14:53) 
 - 复杂度实验，观察趋势：每次将数据规模提高两倍，看时间的变化
-- [四个测试算法](ComplexityExp\MyAlgorithmTester.h)
-- [生成工具]()
+- [四个测试算法](ComplexityExp/MyAlgorithmTester.h)
+- [生成数组工具](ComplexityExp/MyUtil.h)
 #### 2-5 递归算法的复杂度分析 (14:46) 
 #### 2-6 均摊时间复杂度分析（Amortized Time Analysis） (15:16) 
 #### 2-7 避免复杂度的震荡 (11:25) 
