@@ -17,6 +17,7 @@ namespace MyUtil {
     int *arr = new int[n];
 
     srand(time(NULL));
+    //cout << rand() << "\t" << endl;
     for(int i = 0; i < n; i++)
       arr[i] = rand() % (rangeR - rangeL + 1) + rangeL;
     return arr;
