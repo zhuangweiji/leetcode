@@ -57,6 +57,9 @@
 
 
 #### 3-6 对撞指针 [Two Sum II]() - Input Array is Sorted (19:44)
+- 暴力搜索，O(n^2)，不可接受，没有利用源数组有序的性质
+- 有序？二分搜索？O(nlogn)
+- 对撞指针，nums[i] + nums[j] == target ,O(n) 
 
 
 #### 3-7 滑动窗口 [Minimum Size Subarray Sum]() (14:09)
@@ -68,23 +71,26 @@
 ### 习题：
 Section|ID|Title|Solution|Difficulty
 -|-|-|-|-
-3-3|283|Move Zeros|[cpp](03-Using-Array/cpp/04-Move-Zeroes-II/0283-Move-Zeroes.cpp)/py3|Easy
+3-4|283|Move Zeros|[cpp](03-Using-Array/cpp/04-Move-Zeroes-II/0283-Move-Zeroes.cpp)/py3|Easy
 3-4|27|Remove Element|[cpp]/py3|Easy
 3-4|26|Remove Dumplicated From Sorted Array|[cpp]/py3|Easy
 3-4|80|Remove Dumplicated From Sorted Array 2|[cpp]/py3|Easy
 -|-|-|-|-
-3-|75|Sort Colors|[cpp]()/py3|Easy
-3-|88|Merge Sorted Array|[cpp]/py3|Easy
-3-|215|Kth Largest Element In An Array|[cpp]/py3|Easy
-3-|167|Two Sum 2|[cpp]/py3|Easy
-3-|125|Valid Palindrome|[cpp]/py3|Easy
-3-|344|Reverse String|[cpp]/py3|Easy
-3-|345|Reverse Vowels Of A String|[cpp]/py3|Easy
-3-|11|Container With Most Water|[cpp]/py3|Easy
-3-|209|Minimum Size Subarray Sum|[cpp]/py3|Easy
-3-|3|Longest Substring Without Repeating Characters|[cpp]/py3|Easy
-3-|438|Find All Anagrams In A String|[cpp]/py3|Easy
-3-|76|Minimun Window Substring|[cpp]/py3|Easy
+3-5|75|Sort Colors|[cpp](03-Using-Array/cpp/05-Sort-Colors/0075-Sort-Colors.cpp)/py3|Easy
+3-5|88|Merge Sorted Array|[cpp]/py3|Easy
+3-5|215|Kth Largest Element In An Array|[cpp]/py3|Easy
+-|-|-|-|-
+3-6|167|Two Sum 2|[cpp](03-Using-Array/cpp/06-Two-Sum-II/0167-Two-Sum.cpp)/py3|Easy
+3-6|125|Valid Palindrome|[cpp]/py3|Easy
+3-6|344|Reverse String|[cpp]/py3|Easy
+3-6|345|Reverse Vowels Of A String|[cpp]/py3|Easy
+3-6|11|Container With Most Water|[cpp]/py3|Easy
+-|-|-|-|-
+3-7|209|Minimum Size Subarray Sum|[cpp]/py3|Easy
+-|-|-|-|-
+3-8|3|Longest Substring Without Repeating Characters|[cpp]/py3|Easy
+3-8|438|Find All Anagrams In A String|[cpp]/py3|Easy
+3-8|76|Minimun Window Substring|[cpp]/py3|Easy
 
 ---
 ## 第四章：查找表 Search Table
