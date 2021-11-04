@@ -35,7 +35,7 @@
 - 排序: 选择排序；插入排序；归并排序；快速排序
 - 查找：二分查找法
 - 数据结构：栈；堆；队列
-#### 3-1 从二分查找法看如何写出正确的程序 (15:27)
+#### 3-1 从[二分查找法](Chapter3Array/cpp/BinarySearch.cpp)看如何写出正确的程序 (15:27)
 - 对于有序数列，才能使用二分查找法（排序的作用）
 - 明确变量的含义
 - 在循环中维护【循环不变量】
@@ -45,9 +45,12 @@
 - 1. 快速、准确定位出错误的位置
 - 2. 方便理解代码
 - 大数据量测试
-#### 3-3 在LeetCode上解决第一个问题 Move Zeros (13:27)
+#### 3-3 在LeetCode上解决第一个问题 [Move Zeros](Chapter3Array/cpp/283_MoveZeroes.cpp) (13:27)
+
 
 #### 3-4 即使简单的问题，也有很多优化的思路 (15:30)
+- 完成后思考当前解决方案是否可以继续优化
+
 #### 3-5 三路快排partition思路的应用 Sort Color (22:26)
 #### 3-6 对撞指针 Two Sum II - Input Array is Sorted (19:44)
 #### 3-7 滑动窗口 Minimum Size Subarray Sum (14:09)
@@ -59,22 +62,23 @@
 ### 习题：
 Section|ID|Title|Solution|Difficulty
 -|-|-|-|-
-3-4|283|Move Zeros|cpp/py3|Easy
-3-4|27|Remove Element
-3-4|26|Remove Dumplicated From Sorted Array
-3-4|80|Remove Dumplicated From Sorted Array 2
-3-4|75|Sort Colors
-3-4|88|Merge Sorted Array
-3-4|215|Kth Largest Element In An Array
-3-4|167|Two Sum 2
-3-4|125|Valid Palindrome
-3-4|344|Reverse String
-3-4|345|Reverse Vowels Of A String
-3-4|11|Container With Most Water
-3-4|209|Minimum Size Subarray Sum
-3-4|3|Longest Substring Without Repeating Characters
-3-4|438|Find All Anagrams In A String
-3-4|76|Minimun Window Substring
+3-3|283|Move Zeros|[cpp](Chapter3Array/cpp/283_MoveZeroes.cpp)/py3|Easy
+3-4|27|Remove Element|[cpp]()/py3|Easy
+3-4|26|Remove Dumplicated From Sorted Array|[cpp]()/py3|Easy
+3-4|80|Remove Dumplicated From Sorted Array 2|[cpp]()/py3|Easy
+-|-|-|-|-
+3-|75|Sort Colors|[cpp]()/py3|Easy
+3-|88|Merge Sorted Array|[cpp]()/py3|Easy
+3-|215|Kth Largest Element In An Array|[cpp]()/py3|Easy
+3-|167|Two Sum 2|[cpp]()/py3|Easy
+3-|125|Valid Palindrome|[cpp]()/py3|Easy
+3-|344|Reverse String|[cpp]()/py3|Easy
+3-|345|Reverse Vowels Of A String|[cpp]()/py3|Easy
+3-|11|Container With Most Water|[cpp]()/py3|Easy
+3-|209|Minimum Size Subarray Sum|[cpp]()/py3|Easy
+3-|3|Longest Substring Without Repeating Characters|[cpp]()/py3|Easy
+3-|438|Find All Anagrams In A String|[cpp]()/py3|Easy
+3-|76|Minimun Window Substring|[cpp]()/py3|Easy
 
 ---
 ## 第四章：查找表 Search Table
