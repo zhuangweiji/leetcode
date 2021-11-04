@@ -7,7 +7,7 @@
 - O表示算法执行的最低上界，n表示数据规模
 - O(f(n))表示运行算法所需执行的指令数，和f(n)成正比
 #### 2-2 对数据规模有一个概念 (11:26) 
-- [时间复杂度为O(n)的算法的时间代价和n成正比](Chapter2Complexity/0_On_test1.cpp)
+- [时间复杂度为O(n)的算法的时间代价和n成正比](02-Time-Complexity/01-ON-test.cpp)
 - 递归调用是有空间代价的
 #### 2-3 简单的复杂度分析 (19:20) 
 - O(1)
@@ -19,14 +19,14 @@
 - O(2^n) 指数级 暴力解码 不可接受
 #### 2-4 亲自试验自己算法的时间复杂度 (14:53) 
 - 复杂度实验，观察趋势：每次将数据规模提高两倍，看时间的变化
-- [四个测试算法](Chapter2Complexity/MyAlgorithmTester.h)
-- [生成数组工具](Chapter2Complexity/MyUtil.h)
-- [时间复杂度测试](Chapter2Complexity/MyTimeCostTest.cpp)
+- [四个测试算法](02-Time-Complexity/MyAlgorithmTester.h)
+- [生成数组工具](02-Time-Complexity/MyUtil.h)
+- [时间复杂度测试](02-Time-Complexity/MyTimeCostTest.cpp)
 #### 2-5 递归算法的复杂度分析 (14:46) 
 - 如果递归函数中，只进行一次递归调用，递归深度为depth，在每个递归函数中，时间复杂度为T；则总体的时间复杂度为O(T*depth)
 - 主定理
 #### 2-6 均摊时间复杂度分析（Amortized Time Analysis） (15:16) 
-- [MyVector](Chapter2Complexity/MyVector.h)实现中的push_back()，在均摊复杂度分析下，时间复杂度仍为O(1)
+- [MyVector](02-Time-Complexity/MyVector.h)实现中的push_back()，在均摊复杂度分析下，时间复杂度仍为O(1)
 #### 2-7 避免复杂度的震荡 (11:25) 
 - 应为删除元素(pop_back)后再添加元素(push_back)留出余地，否则在删除和添加元素的临界点无法进行复杂度均摊，复杂度O(1)会退化为O(n)
 
@@ -35,7 +35,7 @@
 - 排序: 选择排序；插入排序；归并排序；快速排序
 - 查找：二分查找法
 - 数据结构：栈；堆；队列
-#### 3-1 从[二分查找法](Chapter3Array/cpp/BinarySearch.cpp)看如何写出正确的程序 (15:27)
+#### 3-1 从[二分查找法](03-Using-Array/cpp/01-Binary-Search/main.cpp)看如何写出正确的程序 (15:27)
 - 对于有序数列，才能使用二分查找法（排序的作用）
 - 明确变量的含义
 - 在循环中维护【循环不变量】
@@ -45,40 +45,46 @@
 - 1. 快速、准确定位出错误的位置
 - 2. 方便理解代码
 - 大数据量测试
-#### 3-3 在LeetCode上解决第一个问题 [Move Zeros](Chapter3Array/cpp/283_MoveZeroes.cpp) (13:27)
+#### 3-3 在LeetCode上解决第一个问题 [Move Zeros](03-Using-Array/cpp/03-Move-Zeroes/0283-Move-Zeroes.cpp) (13:27)
 
 #### 3-4 即使简单的问题，也有很多优化的思路 (15:30)
 - 完成后思考当前解决方案是否可以继续优化
 
-#### 3-5 三路快排partition思路的应用 Sort Color (22:26)
+#### 3-5 三路快排partition思路的应用 [Sort Color](03-Using-Array/cpp/05-Sort-Colors/0075-Sort-Colors.cpp) (22:26)
+- 基础算法思路的应用
+- 元素种类非常有限，可以使用计数排序
+- 三路快排可以参见 [数据结构与算法C++精解](https://coding.imooc.com/class/chapter/71.html)
 
-#### 3-6 对撞指针 Two Sum II - Input Array is Sorted (19:44)
 
-#### 3-7 滑动窗口 Minimum Size Subarray Sum (14:09)
+#### 3-6 对撞指针 [Two Sum II]() - Input Array is Sorted (19:44)
+
+
+#### 3-7 滑动窗口 [Minimum Size Subarray Sum]() (14:09)
 - 翻转字符串等需要从数组两端开始使用对撞指针
 - 查找满足要求的字串之类的问题需要从数组一端开始使用滑动窗口
-#### 3-8 在滑动窗口中做记录 Longest Substring Without Repeating Characters (15:20)
+
+#### 3-8 在滑动窗口中做记录 [Longest Substring Without Repeating Characters]() (15:20)
 
 ### 习题：
 Section|ID|Title|Solution|Difficulty
 -|-|-|-|-
-3-3|283|Move Zeros|[cpp](Chapter3Array/cpp/283_MoveZeroes.cpp)/py3|Easy
-3-4|27|Remove Element|[cpp]()/py3|Easy
-3-4|26|Remove Dumplicated From Sorted Array|[cpp]()/py3|Easy
-3-4|80|Remove Dumplicated From Sorted Array 2|[cpp]()/py3|Easy
+3-3|283|Move Zeros|[cpp](03-Using-Array/cpp/04-Move-Zeroes-II/0283-Move-Zeroes.cpp)/py3|Easy
+3-4|27|Remove Element|[cpp]/py3|Easy
+3-4|26|Remove Dumplicated From Sorted Array|[cpp]/py3|Easy
+3-4|80|Remove Dumplicated From Sorted Array 2|[cpp]/py3|Easy
 -|-|-|-|-
 3-|75|Sort Colors|[cpp]()/py3|Easy
-3-|88|Merge Sorted Array|[cpp]()/py3|Easy
-3-|215|Kth Largest Element In An Array|[cpp]()/py3|Easy
-3-|167|Two Sum 2|[cpp]()/py3|Easy
-3-|125|Valid Palindrome|[cpp]()/py3|Easy
-3-|344|Reverse String|[cpp]()/py3|Easy
-3-|345|Reverse Vowels Of A String|[cpp]()/py3|Easy
-3-|11|Container With Most Water|[cpp]()/py3|Easy
-3-|209|Minimum Size Subarray Sum|[cpp]()/py3|Easy
-3-|3|Longest Substring Without Repeating Characters|[cpp]()/py3|Easy
-3-|438|Find All Anagrams In A String|[cpp]()/py3|Easy
-3-|76|Minimun Window Substring|[cpp]()/py3|Easy
+3-|88|Merge Sorted Array|[cpp]/py3|Easy
+3-|215|Kth Largest Element In An Array|[cpp]/py3|Easy
+3-|167|Two Sum 2|[cpp]/py3|Easy
+3-|125|Valid Palindrome|[cpp]/py3|Easy
+3-|344|Reverse String|[cpp]/py3|Easy
+3-|345|Reverse Vowels Of A String|[cpp]/py3|Easy
+3-|11|Container With Most Water|[cpp]/py3|Easy
+3-|209|Minimum Size Subarray Sum|[cpp]/py3|Easy
+3-|3|Longest Substring Without Repeating Characters|[cpp]/py3|Easy
+3-|438|Find All Anagrams In A String|[cpp]/py3|Easy
+3-|76|Minimun Window Substring|[cpp]/py3|Easy
 
 ---
 ## 第四章：查找表 Search Table
@@ -225,3 +231,19 @@ Section|ID|Title|Solution|Difficulty
 数学归纳法
 反证法
 反证法的套路为：假设贪心算法为 A，最优算法为 O，发现 A 能完全替代 O，且不影响求出的最优解。
+
+
+----
+## 其他课程
+[Python3入门机器学习 经典算法与应用](https://coding.imooc.com/class/169.html)  
+
+[高等数学](https://coding.imooc.com/class/chapter/427.html#Anchor)  
+[线性代数](https://coding.imooc.com/class/260.[html)  
+[统计](https://coding.imooc.com/class/371.html)
+
+[PyTorch入门到进阶](https://coding.imooc.com/class/chapter/440.html#Anchor)  
+[重学C++](https://coding.imooc.com/class/chapter/414.html#Anchor)  第十三章：了解开源架构ffmpeg的设计和使用  
+
+[图论精讲](https://coding.imooc.com/class/chapter/370.html#Anchor)  
+[音视频开发与视频直播技术](https://coding.imooc.com/learningpath/route?mc_marking=e4683132e4f74479831268d5f6d5a02f&mc_channel=lx&pathId=39)
+[WebRTC源码级深度解析](https://coding.imooc.com/class/532.html)  
