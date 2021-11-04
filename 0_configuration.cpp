@@ -4,7 +4,7 @@
 // 安装minGW: https://nuwen.net/mingw.html
 
 // 无法再terminal输入内容：
-// File -> Preferences -> Settings -> run in terminal 
+// File -> Preferences -> Settings -> run in terminal
 // -> (Code-runner: Run In Terminal), restart vscode
 
 // 文件名中不应含有“.” http://nicethemes.cn/news/txtlist_i61307v.html
@@ -14,16 +14,16 @@
 // https://www.bilibili.com/video/BV1dK411p7RF?from=search&seid=9806334562423815315&spm_id_from=333.337.0.0
 #include <iostream>
 using namespace std;
-int main(){
-    cout << "C++: Hello World!";
-    string first_name, last_name;
+int main() {
+  cout << "C++: Hello World!";
+  string first_name, last_name;
 
-    cout << "Enter your first name : ";
-    cin >> first_name;
-    cout << "Enter your last name : ";
-    cin >> last_name;
+  cout << "Enter your first name : ";
+  cin >> first_name;
+  cout << "Enter your last name : ";
+  cin >> last_name;
 
-    cout << "Your full name is : " << first_name + last_name;
+  cout << "Your full name is : " << first_name + last_name;
 
-    return 0;
+  return 0;
 }

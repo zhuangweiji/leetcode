@@ -47,17 +47,17 @@
 - 大数据量测试
 #### 3-3 在LeetCode上解决第一个问题 [Move Zeros](Chapter3Array/cpp/283_MoveZeroes.cpp) (13:27)
 
-
 #### 3-4 即使简单的问题，也有很多优化的思路 (15:30)
 - 完成后思考当前解决方案是否可以继续优化
 
 #### 3-5 三路快排partition思路的应用 Sort Color (22:26)
+
 #### 3-6 对撞指针 Two Sum II - Input Array is Sorted (19:44)
+
 #### 3-7 滑动窗口 Minimum Size Subarray Sum (14:09)
 - 翻转字符串等需要从数组两端开始使用对撞指针
 - 查找满足要求的字串之类的问题需要从数组一端开始使用滑动窗口
 #### 3-8 在滑动窗口中做记录 Longest Substring Without Repeating Characters (15:20)
-
 
 ### 习题：
 Section|ID|Title|Solution|Difficulty
