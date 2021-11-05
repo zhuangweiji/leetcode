@@ -66,7 +66,7 @@
 - 查找满足要求的字串之类的问题需要从数组一端开始使用滑动窗口
 
 #### 3-8 在滑动窗口中做记录 [Longest Substring Without Repeating Characters]() (15:20)
-- // freq[256]用于记录字符出现的频次，可以用O(1)的时间判定
+- 用一个数组freq[256]记录每个字符出现的频次，可以在O(1)时间复杂度做出判定
 
 ### 习题：
 Section|ID|Title|Solution|Difficulty
