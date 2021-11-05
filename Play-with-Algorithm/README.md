@@ -66,6 +66,7 @@
 - 查找满足要求的字串之类的问题需要从数组一端开始使用滑动窗口
 
 #### 3-8 在滑动窗口中做记录 [Longest Substring Without Repeating Characters]() (15:20)
+- // freq[256]用于记录字符出现的频次，可以用O(1)的时间判定
 
 ### 习题：
 Section|ID|Title|Solution|Difficulty
@@ -87,9 +88,9 @@ Section|ID|Title|Solution|Difficulty
 -|-|-|-|-
 3-7|209|Minimum Size Subarray Sum|[cpp](03-Using-Array/cpp/07-Minimum-Size-Subarray-Sum/0209-Mininum-Size-Subarray.cpp)/py3|Medium
 -|-|-|-|-
-3-8|3|Longest Substring Without Repeating Characters|[cpp]/py3|Easy
+3-8|3|Longest Substring Without Repeating Characters|[cpp](03-Using-Array/cpp/08-Longest-Substring-Without-Repeating-Characters/0003-Longest-Substring-Withouot-Repeating-Characters.cpp)/py3|Medium
 3-8|438|Find All Anagrams In A String|[cpp]/py3|Easy
-3-8|76|Minimun Window Substring|[cpp]/py3|Easy
+3-8|76|Minimun Window Substring|[cpp]/py3|Hard
 
 ---
 ## 第四章：查找表 Search Table
