@@ -72,8 +72,8 @@
 Section|ID|Title|Solution|Difficulty
 -|-|-|-|-
 3-4|283|Move Zeros|[cpp](03-Using-Array/cpp/04-Move-Zeroes-II/0283-Move-Zeroes.cpp)/py3|Easy
-3-4|27|Remove Element|[cpp]/py3|Easy
-3-4|26|Remove Dumplicated From Sorted Array|[cpp]/py3|Easy
+3-4|27|Remove Element|[cpp](03-Using-Array/cpp/04-Move-Zeroes-II/0027-Remove-Element.cpp)/py3|Easy
+3-4|26|Remove Dumplicated From Sorted Array|[cpp](03-Using-Array/cpp/04-Move-Zeroes-II/0026-Remove-Duplicates-From-Sorted-Array.cpp)/py3|Easy
 3-4|80|Remove Dumplicated From Sorted Array 2|[cpp]/py3|Easy
 -|-|-|-|-
 3-5|75|Sort Colors|[cpp](03-Using-Array/cpp/05-Sort-Colors/0075-Sort-Colors.cpp)/py3|Easy
