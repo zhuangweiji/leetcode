@@ -55,14 +55,13 @@
 - 元素种类非常有限，可以使用计数排序
 - 三路快排可以参见 [数据结构与算法C++精解](https://coding.imooc.com/class/chapter/71.html)
 
-
 #### 3-6 对撞指针 [Two Sum II]() - Input Array is Sorted (19:44)
 - 暴力搜索，O(n^2)，不可接受，没有利用源数组有序的性质
 - 有序？二分搜索？O(nlogn)
 - 对撞指针，nums[i] + nums[j] == target ,O(n) 
 
-
 #### 3-7 滑动窗口 [Minimum Size Subarray Sum]() (14:09)
+- 双索引技术 Two Pointer
 - 翻转字符串等需要从数组两端开始使用对撞指针
 - 查找满足要求的字串之类的问题需要从数组一端开始使用滑动窗口
 
@@ -83,10 +82,10 @@ Section|ID|Title|Solution|Difficulty
 3-6|167|Two Sum 2|[cpp](03-Using-Array/cpp/06-Two-Sum-II/0167-Two-Sum.cpp)/py3|Easy
 3-6|125|Valid Palindrome|[cpp]/py3|Easy
 3-6|344|Reverse String|[cpp]/py3|Easy
-3-6|345|Reverse Vowels Of A String|[cpp]/py3|Easy
+3-6|345|Reverse Vowels of a String|[cpp]/py3|Easy
 3-6|11|Container With Most Water|[cpp]/py3|Easy
 -|-|-|-|-
-3-7|209|Minimum Size Subarray Sum|[cpp]/py3|Easy
+3-7|209|Minimum Size Subarray Sum|[cpp](03-Using-Array/cpp/07-Minimum-Size-Subarray-Sum/0209-Mininum-Size-Subarray.cpp)/py3|Medium
 -|-|-|-|-
 3-8|3|Longest Substring Without Repeating Characters|[cpp]/py3|Easy
 3-8|438|Find All Anagrams In A String|[cpp]/py3|Easy
