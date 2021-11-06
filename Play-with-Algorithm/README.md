@@ -78,10 +78,10 @@ Section|ID|Title|Solution|Difficulty
 -|-|-|-|-
 3-5|75|Sort Colors|[cpp](03-Using-Array/cpp/05-Sort-Colors/0075-Sort-Colors.cpp)/py3|Easy
 3-5|88|Merge Sorted Array|[cpp](03-Using-Array/cpp/05-Sort-Colors/0088-Merge-Sorted-Array.cpp)/py3|Easy
-3-5|215|Kth Largest Element In An Array|[cpp](03-Using-Array/cpp/05-Sort-Colors/0215-Kth-Largest-Element-In-An-Array.cpp)/py3|Medium
+**3-5**|**215**|**Kth Largest Element In An Array**|[cpp](03-Using-Array/cpp/05-Sort-Colors/0215-Kth-Largest-Element-In-An-Array.cpp)/py3|Medium
 -|-|-|-|-
 3-6|167|Two Sum 2|[cpp](03-Using-Array/cpp/06-Two-Sum-II/0167-Two-Sum.cpp)/py3|Easy
-3-6|125|Valid Palindrome|[cpp]/py3|Easy
+**3-6**|**125**|**Valid Palindrome**|[cpp](03-Using-Array/cpp/06-Two-Sum-II/0125-Valid-Palindrome.cpp)/py3|Easy
 3-6|344|Reverse String|[cpp]/py3|Easy
 3-6|345|Reverse Vowels of a String|[cpp]/py3|Easy
 3-6|11|Container With Most Water|[cpp]/py3|Easy
