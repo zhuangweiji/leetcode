@@ -83,7 +83,7 @@ Section|ID|Title|Solution|Difficulty
 3-6|167|Two Sum 2|[cpp](03-Using-Array/cpp/06-Two-Sum-II/0167-Two-Sum.cpp)/py3|Easy
 **3-6**|**125**|**Valid Palindrome**|[cpp](03-Using-Array/cpp/06-Two-Sum-II/0125-Valid-Palindrome.cpp)/py3|Easy
 3-6|344|Reverse String|[cpp](03-Using-Array/cpp/06-Two-Sum-II/0344-Reverse-String.cpp)/py3|Easy
-3-6|345|Reverse Vowels of a String|[cpp]/py3|Easy
+3-6|345|Reverse Vowels of a String|[cpp](03-Using-Array/cpp/06-Two-Sum-II/0345-Reverse-Vowels-Of-A-String.cpp)/py3|Easy
 3-6|11|Container With Most Water|[cpp]/py3|Easy
 -|-|-|-|-
 3-7|209|Minimum Size Subarray Sum|[cpp](03-Using-Array/cpp/07-Minimum-Size-Subarray-Sum/0209-Mininum-Size-Subarray.cpp)/py3|Medium
