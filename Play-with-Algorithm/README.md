@@ -89,8 +89,8 @@ Section|ID|Title|Solution|Difficulty
 3-7|209|Minimum Size Subarray Sum|[cpp](03-Using-Array/cpp/07-Minimum-Size-Subarray-Sum/0209-Mininum-Size-Subarray.cpp)/py3|Medium
 -|-|-|-|-
 3-8|3|Longest Substring Without Repeating Characters|[cpp](03-Using-Array/cpp/08-Longest-Substring-Without-Repeating-Characters/0003-Longest-Substring-Withouot-Repeating-Characters.cpp)/py3|Medium
-3-8|438|Find All Anagrams In A String|[cpp](03-Using-Array/cpp/08-Longest-Substring-Without-Repeating-Characters/438-Find-All-Anagrams-In-A-String.cpp)/py3|Easy
-3-8|76|Minimun Window Substring|[cpp]/py3|Hard
+**3-8**|**438**|**Find All Anagrams In A String**|[cpp](03-Using-Array/cpp/08-Longest-Substring-Without-Repeating-Characters/438-Find-All-Anagrams-In-A-String.cpp)/py3|Medium
+**3-8**|**76**|**Minimun Window Substring**|[cpp](03-Using-Array/cpp/08-Longest-Substring-Without-Repeating-Characters/0076-Minimum-Window-Substring.cpp)/py3|Hard
 
 ---
 ## 第四章：查找表 Search Table
