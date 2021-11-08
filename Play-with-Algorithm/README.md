@@ -94,21 +94,88 @@ Section|ID|Title|Solution|Difficulty
 
 ---
 ## 第四章：查找表 Search Table
+- 查找问题
+  1. 查找有无 ： 如元素'a'是否存在？ set 集合
+  2. 查找对应关系(键值对应): 如元素'a'出现了几次？ map/dict 字典
 - 使用HashMap和HashSet对数据进行存储，通常就可以在O(1)的时间复杂度内完成查找
+- set 和map 通常语言的标准库中都内置了set和map
+  1. 容器类
+  2. 屏蔽实现细节
+  3. 了解语言中标准库里常见容器类的使用
+- 常见操作：增删改查
+  1. insert
+  2. erase
+  3. change(map)
+  4. find 
 #### 4-1 set的使用 Intersection of Two Arrays (11:12)
+- 349. Intersection of Two Arrays
 #### 4-2 map的使用 Intersection of Two Arrays II (13:05)
+- 350. Intersection of Two Arrays
+- 使用时需要注意：map中默认value为0，一旦访问了map中的某个键值，就相当于为这个映射插入了这个键值，且值为默认值。（默认行为模式）
+- 对于两个问题，如果数组有序，就可以不借助辅助的数据结构，用二分查找，O(logn)
 #### 4-3 set和map不同底层实现的区别 (19:00)
-#### 4-4 使用查找表的经典问题 Two Sum (16:56)
-#### 4-5 灵活选择键值 4Sum II (13:25)
-#### 4-6 灵活选择键值 Number of Boomerangs (14:45)
-#### 4-7 查找表和滑动窗口 Contain Duplicate II (11:20)
-#### 4-8 二分搜索树底层实现的顺序性 Contain Duplicate III (10:50)
+- 二分搜索树（平衡）：插入、查找、删除的复杂度都为O(logn)
+- 哈希表：插入、查找、删除的复杂度都为O(1)  
+- **哈希表的缺点：是失去了数据的顺序性**
+- **C++语言中，map和set的底层实现为平衡二叉树**
+- **unordered_map 和 unordered_set的底层实现为哈希表**
 
+- 242. Valid Anagram
+- 202. Happy Number
+- 290. Word Pattern
+- 205. Isomorphic Strings
+- 451. Sort Characters By Frequency
+#### 4-4 使用查找表的经典问题 Two Sum (16:56)
+- 1. Two Sum
+  1. 暴力解法：O(n^2)
+  2. 排序后(需保存索引)，使用双索引对撞：O(nlogn) + O(n) = O(nlogn)
+  3. 查找表：将所有元素放入查找表unordered_map（小心重复元素被覆盖），之后对于每个元素a，查找target - a是否存在
+- 15. Three Sum
+- 18. Four Sum
+- 16. Three Sum Closest
+
+#### 4-5 灵活选择键值 Four Sum II (13:25)
+- 454. Four Sum II
+  1. 根据数据规模的取值范围，可以大概估计出需要一个什么复杂度的算法
+  2. 暴力解法：O(n^4)   500^4 = 625,0000,0000
+  3. 将D中的元素放入查找表：O(n^3)    500^3 = 1,2500,0000
+  4. 将C+D中的每一种可能放入查找表(#include <unordered_map>)中，表中最多有500^2个元素(空间复杂度O(n^2))，时间复杂度：O(n^2)    500^2 = 25,0000
+
+- 49. Group Anagrams  
+      字符串问题先考虑：  
+        字符集  
+        大小写是否敏感
+
+#### 4-6 灵活选择键值 Number of Boomerangs (14:45)
+- 447. Number of Boomerangs
+  1. 暴力解法：O(n^3)
+  2. 观察点i是一个“枢纽”，对于每个点i，查找表遍历其余点到i的距离：O(n^2)
+  3. **比较距离大小可以不开根号，用距离的平方，避免引入浮点误差
+  4. 数据对：pair<int, int> 
+  5. 迭代器 for(unordered_map<int,int>::iterator iter = record.begin(); iter != record.end(); iter++)
+
+- 149. Max Points on a Line
+
+#### 4-7 查找表和滑动窗口 Contain Duplicate II (11:20)
+- 219. Contains Duplicate II
+  1. 暴力解法：O(n^2)
+  2. 滑动窗 [l,l+k] + unordered_set<int> record; ：时间复杂度O(n) 空间复杂度O(k)
+  3. 边界抽象的不好想象的话，代入一个例子
+
+- 217. Contains Duplicate
+
+#### 4-8 二分搜索树底层实现的顺序性 Contain Duplicate III (10:50)
+- 220. Contains Duplicate III
+  1. lower_bound() / upper_bound() 利用二分查找法在一个排好序的数组中查找大于、小于num的数字，返回地址
+  2. +/*的时候小心整形溢出 int(32位) -> long long (64位)
 
 
 ### 习题：
 Section|ID|Title|Solution|Difficulty
 -|-|-|-|-
+
+
+
 
 ---
 ## 第五章： 链表 Linked List
