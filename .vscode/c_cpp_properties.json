@@ -3,7 +3,7 @@
         {
             "name": "Win32",
             "includePath": [
-//                "${workspaceFolder}/02-Time-Algorithm/**",
+                //                "${workspaceFolder}/02-Time-Algorithm/**",
                 "${workspaceFolder}/**"
             ],
             "defines": [
@@ -12,7 +12,8 @@
                 "_UNICODE"
             ],
             "compilerPath": "C:\\mingw64\\bin\\gcc.exe",
-            "intelliSenseMode": "windows-gcc-x64"
+            "intelliSenseMode": "windows-gcc-x64",
+            "configurationProvider": "ms-vscode.cmake-tools"
         }
     ],
     "version": 4

@@ -52,5 +52,6 @@
     "streambuf": "cpp",
     "cinttypes": "cpp",
     "typeinfo": "cpp"
-  }
+  },
+  "cmake.sourceDirectory": "${workspaceFolder}/Play-with-Algorithm/00-Cmake"
 }
